@@ -6,7 +6,7 @@ module tb;
   OR  uut X( A.(A), B.(B), Y.(Y));
 
 initial clk=0;
-always #5  clk= ~CLK;
+always #5  clk= ~clk;
 
 initial begin
 #10
